@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='shopping.css'>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body id="cataloguePage">
+    <h1>Shopping Cart</h1>
+    
+    <div>
+    <nav>
+
+    <div id="container">
+        <ul class="menu">
+            <li class="list"><a href="#">Information</li>
+                <li class="list"><a href="#">About Us</a>
+   <ul class="subMenu">
+       <li><a href="#">Contact</a></li>
+    <li><a href="#">Delivery</a></li>
+    <li><a href="#">Cart </a></li>
+   </ul>
+    </li>
+</ul>
+</div>
+</nav>
+</div>
+
+        
+<div class="productContainer">
+    <div class="imgLogo">
+    <img id="logoImg" src="./furniture/Untitled design.png" alt="logo">
+</div>
+    <div class="product-header">
+<h1> Apply Discount Codes here</h1>
+        <form name="DiscountCode" action="" method="get">
+            Coupon Information: <br>
+            <input id="discountCode" type="text;" />
+            <p id="answer"></p>
+            <button onclick="checkDiscount()">Check</button>
+            <p id="feedBack"></p>
+            <p id="feedBack2"></p>
+            <p id="feedBack3"></p>
+    </div>
+    <div class="cart">
+        <span>0</span>
+    </div>
+    <div id="Options">
+        <div id="test"></div>
+        <div id="deliveryOptions">
+        <h1>Delivery Options</h1>
+         
+            <div class="form-check" id="noDelivery">
+            <radio class="form-check-label" for="flexRadioSelectNo">
+            <input class="form-check-input" type="radio" name="Default" id="noCharge"
+            onclick='noDeliveryCharge()'/>
+            Collection
+    </label>
+    </div>
+    <br>
+    <div class="form-check">
+        <radio class="form-check-label" for="flexRadioSelectYes">
+    <input class="form-check-input" type="radio" name="Default" id="deliveryCharge" 
+        onclick='chargeDelivery()'/>
+        Delivery
+    </label>
+    </div>
+    <br>
+    <div id="deliveryOptions"></div>
+    <br>
+
+        <div id="output"></div>
+    </div>
+    <div class="products"></div>
+    <div class="price"></div>
+    <div class="quantity"></div>
+    <div class="total"></div>
+    <div clas="productsInCart"></div>
+    <div id="cartAnswer"></div>
+    <div id="cartAnswer2"></div>
+    <div id="cartAnswer3"></div>
+    <div id="cartAnswer4"></div>
+</div>
+<br>
+<button id="buttonConfirm" onclick="getClickID()">Confirm Order</button>
+</div>
+</div>
+
+<button id="clearCart">clear Cart</button>
+<div class="basketTotalContainer"></div>
+<ul id="showCart">
+    
+    <li></li>
+</ul>
+</div>
+
+
+<script type="text/javascript" src="./shopping.js"></script>
+
+</body>

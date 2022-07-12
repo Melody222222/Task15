@@ -1,0 +1,156 @@
+
+.furnitureImage {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 16px;
+}
+#container {
+padding-left: 800px;
+padding-right: 40px;
+background: lightcoral;
+
+}  
+
+img {
+    width: 100px;
+    height: 100px;
+    
+}
+h1 {
+    margin-top: 5%;
+    margin-left: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: #334F5C ;
+}
+#clearCart {
+ margin-top: 98%;
+ margin-left: 40px;
+}
+div nav {
+padding: 10px;  
+margin: 5px;
+background: lightcoral;
+margin: 10px auto;
+border-radius: 8px;
+
+}
+
+li {
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight:200;
+    font-style: italic;
+    color: teal;
+    
+}
+
+#cataloguePage {
+    background-image: url("furniture/White\ New\ Catalogue\ flyer.png");
+    background-size: 100% 100%;
+    margin-top: 20px;
+    
+}
+
+.list {
+    padding: 0%;
+    margin: 0%;
+    font-size: larger;
+ position:relative;
+
+  
+}
+.menu:click .subMenu {
+    display: block;
+
+}
+a {
+    background-color: aliceblue;
+}
+
+.subMenu ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    font-size: medium;  
+    padding: 12px 16px;
+    z-index: 1;
+    position: relative;
+
+    display: flex;
+align-items: left;
+justify-content: space-between;
+margin: 0;
+padding: 0;
+
+}
+h5 {
+    margin: 0%;
+}
+nav {
+    cursor: pointer;
+  }
+  div nav ul li a {
+      color: darkslategray;
+  }
+#logoImg {
+width: 250px;
+height: 250px;
+margin-top: -9.7%;
+
+ }
+ div nav ul li {
+position: relative;
+display: inline-block;
+padding: 1px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 10px;
+font-weight:200;
+font-style: italic;
+
+  }
+  nav ul li ul {
+      display:none;
+      position:absolute;
+      width:100px;
+      height: 14px;
+      
+  }    
+  nav ul li ul li {
+    
+      display:block;
+    }
+    nav ul li ul li:first-child {border-top:none; 
+    }
+    nav ul li ul li a {
+      background:teal;
+      display:block;
+      color: darkslategray;
+      
+    }
+    nav ul li ul li:first-child {border-top:none; }
+    nav ul li ul li a {
+      background:pink;
+      display:block;
+      border-radius: 8px;
+      color: darkslategray;
+      font-size: 15px;
+ 
+    }
+    nav ul li ul li a:hover {background:teal; }
+    .productContainer {
+        margin-top: 10px;
+        margin-left: 2%;
+    }
+    
+.cart {
+
+margin-left: 70%;
+border-radius: 4px;
+background-color: #89D5D2;
+width: 100px;
+text-align: center;
+}
